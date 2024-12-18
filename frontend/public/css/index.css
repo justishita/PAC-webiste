@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #222;
+}
+
+header {
+    background-color: #000000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 100px; 
+    height: 70px; 
+}
+
+.logo {
+    width: 130px;
+    height: 70px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.hero {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    text-align: left;
+    background-image: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+/* .hero {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    text-align: left;
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    animation: slideShow 8s infinite;
+}
+
+.hero-text {
+    position: absolute; 
+    z-index: 1; 
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+@keyframes slideShow {
+    0% {
+        background-image: url('https://images.pexels.com/photos/41076/winter-ice-clouds-41076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+    33% {
+        background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+    66% {
+        background-image: url('https://images.pexels.com/photos/585759/pexels-photo-585759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+    100% {
+        background-image: url('https://images.pexels.com/photos/41076/winter-ice-clouds-41076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+}  */
+
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Added shadow effect */
+}
+
+.about, .events, .gallery {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-content p {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.about-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.left {
+    position: absolute;
+    left: -170px;
+}
+
+.right {
+    position: absolute;
+    right: -170px;
+}
+
+.events-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.side-image-container {
+    flex: 0 0 150px;  
+}
+
+.side-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.events {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.event-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.event {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.event h3 {
+    margin-bottom: 10px;
+}
+
+.event button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.event button:hover {
+    background-color: #666;
+}
+
+.side-image-container {
+    flex: 0 0 250px;
+}
+
+.side-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gallery h2 {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    padding: 50px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: calc(33.33% - 20px);
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.gallery-grid img:hover {
+    filter: grayscale(0%);
+}
+
+footer {
+    background-color: #000000;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff4d4d;
+}
+
+p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

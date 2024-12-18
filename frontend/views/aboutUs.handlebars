@@ -1,0 +1,39 @@
+<main>
+  <div id="top">
+        <h1>{{title}}</h1>
+        <p>{{content}}</p>
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon"><img src="/images/1.png"></div>
+                <h3>Creativity</h3>
+                <p>We encourage innovative thinking and exploration of unique perspectives in photography. Join us to unleash your creativity and share your vision with others.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><img src="/images/2.png"></div>
+                <h3>Community</h3>
+                <p>We believe in building a supportive network where members can share ideas and collaborate on projects. Together, we grow and learn from each other.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><img src="/images/3.png"></div>
+                <h3>Growth</h3>
+                <p>Our commitment is to help members improve their photography skills and knowledge. Participate in workshops and events to enhance your craft and confidence.</p>
+            </div>
+        </div>
+    </div>
+  
+  <h2>Meet Our Team</h2>
+  <p>Get to know the passionate individuals behind PAC, dedicated to capturing moments.</p>
+  
+  <div class="team-grid">
+    {{#each teamMembers}}
+      <div class="team-member">
+        <img src="/images/{{this.image}}" alt="{{this.name}}">
+        <h3>{{this.name}}</h3>
+        <div class="social-icons">
+          <a href="{{this.linkedin}}" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="{{this.instagram}}" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</main>

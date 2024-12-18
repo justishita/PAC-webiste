@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC Photography Club</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <%- include("partials/navbar") %>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Turning Moments</h1>
+            <h1>into Masterpieces</h1>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>About PAC Photography Club</h2>
+        <div class="about-content">
+            <img src="/images/about-image1.jpg" alt="Image 1" class="about-img left">
+            <p>Welcome to the Photography and Cinematography Club (PAC), where creativity meets vision! At PAC, we are a passionate community of storytellers dedicated to capturing and sharing moments through the lens. Whether it's documenting campus events, hosting workshops, or producing captivating short films, our mission is to inspire and empower students to explore their artistic potential. From beginners to seasoned photographers and filmmakers, we offer a platform for learning, collaboration, and innovation. Join us in creating visual masterpieces and making memories last forever!</p>
+        </div>
+    </section>   
+    <section class="events-container">
+        <div class="side-image-container">
+            <img src="https://images.pexels.com/photos/2078071/pexels-photo-2078071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Left Image" class="side-image">
+        </div>
+        <section class="events" id="events">
+            <h2>Upcoming Events</h2>
+            <div class="event-cards">
+                <div class="event">
+                    <h3>Photography Workshop</h3>
+                    <p>Join us for an intensive photography workshop on October 5, 2024. Learn advanced techniques and get hands-on experience with professional photographers.</p>
+                    <button>Sign up</button>
+                </div>
+                <div class="event">
+                    <h3>Nature Photography Walk</h3>
+                    <p>Explore the beauty of nature through your lens on November 12, 2024. This guided walk will help you capture stunning landscapes and wildlife.</p>
+                    <button>Join now</button>
+                </div>
+            </div>
+        </section>    
+        <div class="side-image-container">
+            <img src="https://images.pexels.com/photos/3696395/pexels-photo-3696395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Right Image" class="side-image">
+        </div>
+    </section>    
+    <section class="gallery" id="gallery">
+        <h2>Our Captured Moments</h2>
+        <div class="gallery-grid">
+            <img src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Captured Moment 1">
+            <img src="/images/3.jfif" alt="Captured Moment 2">
+            <img src="https://images.pexels.com/photos/860707/pexels-photo-860707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Captured Moment 3">
+            <img src="/images/2.jfif" alt="Captured Moment 4">
+            <img src="https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Captured Moment 5">
+            <img src="/images/1.jfif" alt="Captured Moment 6">
+            <img src="https://images.pexels.com/photos/2635390/pexels-photo-2635390.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Captured Moment 7">
+            <img src="https://images.pexels.com/photos/7686304/pexels-photo-7686304.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Captured Moment 8">
+            <img src="https://images.pexels.com/photos/745045/pexels-photo-745045.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Captured Moment 9">
+        </div>
+    </section>
+    <%- include("partials/footer") %>
+</body>
+</html>

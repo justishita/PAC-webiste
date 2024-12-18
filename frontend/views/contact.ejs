@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC Photography Club - Contact Us</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <%- include("partials/navbar") %>
+    <main>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="contact-intro">Reach out to PAC for any inquiries or information. We're here to help and connect with fellow photography enthusiasts.</p>
+            <div class="contact-form">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We'd love to hear from you! Please fill out the form below to reach us.</p>
+                    <p>Email: <span id="contact-email"></span></p>
+                    <p>Phone: <span id="contact-phone"></span></p>
+                </div>
+                <div class="form">
+                    <form>
+                        <input type="text" id="input-name" placeholder="" required>
+                        <input type="email" id="input-email" placeholder="" required>
+                        <textarea id="textarea-message" placeholder="" rows="4" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include("partials/footer") %>
+    <script src="/js/contact.js"></script>
+</body>
+</html>

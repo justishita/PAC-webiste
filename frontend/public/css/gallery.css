@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+header {
+    background-color: #000000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 100px; 
+    height: 70px; 
+}
+
+.logo {
+    width: 130px;
+    height: 70px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.category h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.image-container {
+    position: relative;
+}
+
+.view-more-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-dark overlay */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    opacity: 1; 
+}
+
+.view-more-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Slight darkening on hover */
+}
+
+footer {
+    background-color: #000000;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem; 
+}
+
+.logo {
+    width: 150px; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff4d4d; 
+}
+
+p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

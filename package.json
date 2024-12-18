@@ -1,0 +1,23 @@
+{
+  "name": "webproject-pac",
+  "version": "1.0.0",
+  "main": "aboutUs.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "f": "^1.4.0",
+    "fs": "^0.0.1-security"
+  },
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

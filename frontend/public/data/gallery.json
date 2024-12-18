@@ -1,0 +1,82 @@
+[
+    {
+        "category": "Portraits",
+        "images": [
+            { "src": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg", "alt": "Portrait 1" },
+            { "src": "https://images.pexels.com/photos/27155552/pexels-photo-27155552.jpeg", "alt": "Portrait 2" },
+            { "src": "https://images.pexels.com/photos/1438461/pexels-photo-1438461.jpeg", "alt": "Portrait 3" },
+            { "src": "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg", "alt": "Portrait 4" }
+        ],
+        "link": "/portraits"
+    },
+    {
+        "category": "Landscape",
+        "images": [
+            { "src": "https://images.pexels.com/photos/28656057/pexels-photo-28656057.jpeg", "alt": "Landscape 1" },
+            { "src": "https://images.pexels.com/photos/28628507/pexels-photo-28628507.jpeg", "alt": "Landscape 2" },
+            { "src": "https://images.pexels.com/photos/2961109/pexels-photo-2961109.jpeg", "alt": "Landscape 3" },
+            { "src": "https://images.pexels.com/photos/1205230/pexels-photo-1205230.jpeg", "alt": "Landscape 4" }
+        ],
+        "link": "/landscape"
+    },
+    {
+        "category": "Sports",
+        "images": [
+            { "src": "https://images.pexels.com/photos/1618269/pexels-photo-1618269.jpeg", "alt": "Sports 1" },
+            { "src": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg", "alt": "Sports 2" },
+            { "src": "https://images.pexels.com/photos/934083/pexels-photo-934083.jpeg", "alt": "Sports 3" },
+            { "src": "https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg", "alt": "Sports 4" }
+        ],
+        "link": "/sports"
+    },
+    {
+        "category": "Street",
+        "images": [
+            { "src": "https://images.pexels.com/photos/3444542/pexels-photo-3444542.jpeg", "alt": "Street 1" },
+            { "src": "https://images.pexels.com/photos/5568670/pexels-photo-5568670.jpeg", "alt": "Street 2" },
+            { "src": "https://images.pexels.com/photos/3340052/pexels-photo-3340052.jpeg", "alt": "Street 3" },
+            { "src": "https://images.pexels.com/photos/19166834/pexels-photo-19166834.jpeg", "alt": "Street 4" }
+        ],
+        "link": "/street"
+    },
+    {
+        "category": "Astrophotography",
+        "images": [
+            { "src": "https://images.pexels.com/photos/1567069/pexels-photo-1567069.jpeg", "alt": "Astrophotography 1" },
+            { "src": "https://images.pexels.com/photos/1276429/pexels-photo-1276429.jpeg", "alt": "Astrophotography 2" },
+            { "src": "https://images.pexels.com/photos/3262249/pexels-photo-3262249.jpeg", "alt": "Astrophotography 3" },
+            { "src": "https://images.pexels.com/photos/433155/pexels-photo-433155.jpeg", "alt": "Astrophotography 4" }
+        ],
+        "link": "/astrophotography"
+    },
+    {
+        "category": "Black and White",
+        "images": [
+            { "src": "https://images.pexels.com/photos/57905/pexels-photo-57905.jpeg", "alt": "Black and White 1" },
+            { "src": "https://images.pexels.com/photos/763097/pexels-photo-763097.jpeg", "alt": "Black and White 2" },
+            { "src": "https://images.pexels.com/photos/134402/pexels-photo-134402.jpeg", "alt": "Black and White 3" },
+            { "src": "https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg", "alt": "Black and White 4" }
+        ],
+        "link": "/blackandwhite"
+    },
+    {
+        "category": "Architecture",
+        "images": [
+            { "src": "https://images.pexels.com/photos/3520942/pexels-photo-3520942.jpeg", "alt": "Architecture 1" },
+            { "src": "https://images.pexels.com/photos/764250/pexels-photo-764250.jpeg", "alt": "Architecture 2" },
+            { "src": "https://images.pexels.com/photos/14520365/pexels-photo-14520365.jpeg", "alt": "Architecture 3" },
+            { "src": "https://images.pexels.com/photos/2491830/pexels-photo-2491830.jpeg", "alt": "Architecture 4" }
+        ],
+        "link": "/architecture"
+    },
+    {
+        "category": "Wildlife",
+        "images": [
+            { "src": "https://images.pexels.com/photos/28571797/pexels-photo-28571797.jpeg", "alt": "Wildlife 1" },
+            { "src": "https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg", "alt": "Wildlife 2" },
+            { "src": "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg", "alt": "Wildlife 3" },
+            { "src": "https://images.pexels.com/photos/3280908/pexels-photo-3280908.jpeg", "alt": "Wildlife 4" }
+        ],
+        "link": "/wildlife"
+    }
+]

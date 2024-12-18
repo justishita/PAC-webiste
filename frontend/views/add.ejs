@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload/Add page</title>
+    <link rel="stylesheet" href="/css/add.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <%- include("partials/navbar") %>
+    <main>
+        <div class="container">
+            <h1>Add Event</h1>
+            <p class="form-intro">Please fill out the form below to add a new event. Make sure to select the category and upload an image (JPG, PNG, JPEG).</p>
+            <div class="event-form">
+                <div class="form">
+                    <form id="addEventForm" enctype="multipart/form-data">
+                        <input type="text" id="input-category" name="categoryName" placeholder="Enter category" required>
+                        <input type="file" id="input-image" name="image" accept=".jpg, .jpeg, .png" required>
+                        <button type="submit">Add Event</button>
+                    </form>                                      
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include("partials/footer") %>
+    <script src="/js/add.js"></script>
+
+</body>
+</html>
+</body>
+</html>

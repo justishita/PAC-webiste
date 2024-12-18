@@ -1,0 +1,50 @@
+[
+    {
+        "name": "President",
+        "image": "team (1).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    },
+    {
+        "name": "Vice-President",
+        "image": "team (2).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    },
+    {
+        "name": "Team Lead",
+        "image": "team (3).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    },
+    {
+        "name": "Operations Head",
+        "image": "team (4).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    },
+    {
+        "name": "Technical Team",
+        "image": "team (5).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    },
+    {
+        "name": "Social Media Team",
+        "image": "team (6).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    },
+    {
+        "name": "Ideation Team",
+        "image": "team (7).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    },
+    {
+        "name": "Treasurer",
+        "image": "team (8).jpg",
+        "linkedin": "#",
+        "instagram": "#"
+    }
+]
